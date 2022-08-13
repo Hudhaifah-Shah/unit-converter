@@ -64,6 +64,11 @@ body {
     font-size: 35px;
     margin-top: -12px;
   }
+  input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
   @media (max-width: 424px) {
     .div {
       height: 130px;
