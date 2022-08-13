@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Courgette&family=Delius&family=Itim&family=Joan&family=Niconne&family=Pacifico&family=Patrick+Hand&family=Permanent+Marker&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header-div">
+    <div>UNIT CONVERTER</div> 
+    <input type="number" id="input-el" placeholder="0">
+    <button id="input-btn" onclick="convert()">CONVERT</button>
+  </div>
+  <div id="ans-div">
+    <div class="div" id="div1">
+      <h1>Length (meter/feet)</h1>
+      <div id="inline">
+        <p id="p1">1 m = 3.280 ft <span style="color: black;">|</span> 1 ft = 0.304 m</p>
+      </div>
+    </div>
+    <div class="div" id="div2">
+      <h1>Volume (litres/gallons)</h1>
+      <p id="p2">1 l = 0.264 gal <span style="color: black;">|</span> 1 gal = 3.785 l</p>
+    </div>
+    <div class="div" id="div3">
+      <h1>Mass (kilograms/pounds)</h1>
+      <p id="p3">1 kg = 2.204 lb <span style="color: black;">|</span> 1 lb = 0.453 kg</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
